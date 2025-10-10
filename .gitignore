@@ -1,1 +1,7 @@
 #Criado caso eu não queira subir algum repositório
+
+# /Section 28 - API/5.2 JSON/node_modules/
+
+# Ignorar todos os node_modules, independentemente da pasta:
+**/node_modules/
+
