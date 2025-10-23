@@ -11,15 +11,20 @@
   -->
   <style>
     .container {
-      color: white;
-      border: 5px solid gold;
-      /* display: flex; */
-      display: inline-flex;
-      flex-direction: column;
+        color: white;
+        border: 5px solid gold;
+        display: flex;
+        gap: 10px;
+        /* display: inline-flex; */
+        flex-direction: row;
+        /* flex-wrap:nowrap; */
+        justify-content:flex-star;
+        /* align-items:center; */
+        /* height: 100vh; */
     }
     
     .container > * {
-      flex-basis: 100px;
+        flex-basis: 150px;
     }
 
     /*
